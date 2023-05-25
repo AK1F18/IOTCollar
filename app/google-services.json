@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "957723126513",
+    "firebase_url": "https://iot-smart-e7052-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "iot-smart-e7052",
+    "storage_bucket": "iot-smart-e7052.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957723126513:android:093fb34abdb7d6cdec1750",
+        "android_client_info": {
+          "package_name": "com.example.iotapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957723126513-kghipggntttjps8djeo0dndc4klkbf4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrP0Psw3BxSpkwC11m1LbHQHbTQPQ06BM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957723126513-kghipggntttjps8djeo0dndc4klkbf4r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "957723126513-g9llkjr8jlotd3deb8vi38sa6q5a85rc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nsbm.smart"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957723126513:android:e51368a23ae8b516ec1750",
+        "android_client_info": {
+          "package_name": "com.example.iotcollar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957723126513-kghipggntttjps8djeo0dndc4klkbf4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrP0Psw3BxSpkwC11m1LbHQHbTQPQ06BM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957723126513-kghipggntttjps8djeo0dndc4klkbf4r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "957723126513-g9llkjr8jlotd3deb8vi38sa6q5a85rc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nsbm.smart"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

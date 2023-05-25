@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/idTVDogTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/temperature"
+        android:textColor="@color/purple_500"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/idTVDoorOC"
+        android:paddingBottom="60dp"
+        android:paddingTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/door"
+        android:textColor="@color/purple_500"
+        android:textSize="23sp"/>
+
+    <Button
+        android:id="@+id/idTVLocateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:paddingLeft="85dp"
+        android:paddingEnd="85dp"
+        android:text="@string/locate" />
+
+    <TextView
+        android:id="@+id/idTVDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="120dp"
+        android:paddingTop="120dp"
+        android:text="Distance:"
+        android:textColor="@color/purple_500"
+        android:textSize="23sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="150dp"
+        android:paddingTop="185dp"
+        android:text="Placeholder"
+        android:textColor="@color/purple_500"
+        android:textSize="23sp"/>
+
+
+</RelativeLayout>
+
+

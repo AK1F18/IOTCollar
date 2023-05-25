@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IOTCollar</string>
+    <string name="retrieve_data">Retrieve Data</string>
+    <string name="temperature">Temperature</string>
+    <string name="door">Door</string>
+    <string name="locate">LOCATE</string>
+
+</resources>
