@@ -1,59 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    android:layout_marginLeft="32dp"
+    android:layout_marginRight="32dp">
+
+    <ImageView
+        android:layout_width="251dp"
+        android:layout_height="295dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/dog"
+        android:layout_marginBottom="32dp" />
 
     <TextView
-        android:id="@+id/idTVDogTemp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/temperature"
-        android:textColor="@color/purple_500"
-        android:textSize="23sp" />
-
-    <TextView
-        android:id="@+id/idTVDoorOC"
-        android:paddingBottom="60dp"
-        android:paddingTop="60dp"
+        android:id="@+id/dog_temp_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/door"
-        android:textColor="@color/purple_500"
-        android:textSize="23sp"/>
+        android:layout_marginTop="32dp"
+        android:text="Dog Temperature: "
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/door_oc_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Door Status: "
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/envi_t_h_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Environment Temperature and Humidity: "
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/location_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Location: "
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/message_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Message: "
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/distance_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Distance: "
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium" />
 
     <Button
-        android:id="@+id/idTVLocateBtn"
+        android:id="@+id/locate_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:gravity="center"
-        android:paddingLeft="85dp"
-        android:paddingEnd="85dp"
-        android:text="@string/locate" />
+        android:layout_marginTop="32dp"
+        android:text="Locate"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"/>
 
-    <TextView
-        android:id="@+id/idTVDistance"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingBottom="120dp"
-        android:paddingTop="120dp"
-        android:text="Distance:"
-        android:textColor="@color/purple_500"
-        android:textSize="23sp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingBottom="150dp"
-        android:paddingTop="185dp"
-        android:text="Placeholder"
-        android:textColor="@color/purple_500"
-        android:textSize="23sp"/>
-
-
-</RelativeLayout>
-
-
+</LinearLayout>
